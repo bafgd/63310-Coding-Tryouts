@@ -1,0 +1,50 @@
+
+Test structured as a "leveling system" 
+
+Candidates are given an easy starting point, such as "initialize a motor" or "import the following packages," and the tasks       /
+slowly evolve into harder tasks, such as "make an autonomous control that moves the robot from point a to b and run the intake,"  /
+guiding the candidates into making a 'full' bot. It will assess their ability to problem-solve, read the documentation for their  /
+chosen language, and provide the candidates with practice coding bots and adding onto their code, while maintaining organization  /
+and structure.
+
+Potential Question List:
+
+1.  Import the following packages
+
+2.  Initialize a sensor (IMU, distance sensor, etc.)
+
+3.  Initialize a motor (with correct port, direction, gearset, watts)
+
+4.  Initialize a drivetrain (or equivalent structure in other languages)
+
+5.  Create a basic loop for processing instructions
+
+6.  Print a message every time a button is pressed / held down
+
+7.  Move motor with joystick input
+
+8.  Move both motors with joystick input (implement tank or arcade controls)
+
+9.  Initialize a third motor for intake and activate it when a button is pressed
+
+10. Initialize a triport device for output (like mogo last year) and hook it up to a button
+
+11. Add deadzone filtering to joystick input (ignore small joystick values)
+
+12. Create a function for driving forward a set distance (using motor encoders)
+
+13. Use the IMU to turn the robot to a set heading
+
+14. Switch intake to a toggle button
+
+15. Program a simple autonomous routine (make the robot drive forward, intake, then back up)
+
+16. More complex autonomous routine (make the robot navigate something)
+
+17. Add timeout for movement functions 
+
+18. Implement a driver control-system that supports both tank and arcade, with a button to switch
+
+19. Add an emergency stop - cancel all movements and stop motors when button is pressed
+
+20. Orgnaize and comment code

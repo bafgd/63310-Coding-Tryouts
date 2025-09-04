@@ -1,0 +1,88 @@
+Robotics Coding Challenge — Levels (Block)
+
+Robot Details:
+Situation: The build team created a robot for this year's pushback game.
+You are tasked to code the robot with the following components:
+- 4 motor drive (Ports Left: 1 & 2; Ports Right: 16 & 17)
+- Legacy Piston-actuated intake/outtake mover (3-Wire Port A)
+- IMU (Port 3)
+- Intake Motor (Port 4)
+- Doinker (3-Wire Port B)
+
+What does each part do?
+In a real team, all members must communicate with each other to understand 
+and develop the bot in the best way. A coder must discuss with the builder & 
+driver to understand what he or she may want in the bot.
+
+The builder made the Legacy Piston-actuated intake/outtake mover to shift the 
+intake up and down to pick up blocks and score them. The intake motor and 
+left driver motors are reversed. The intake motor is designed so that when 
+spinning in the opposite direction, the blocks are sent out to score.
+
+The driver wants to have things mapped in a way that’s easy for him.
+Here is what he proposed:
+- 4 motor drive (Arcade Drive)
+- Legacy Piston-actuated intake/outtake mover (Button A)
+- Intake Motor (Intake) (Button L2)
+- Intake Motor (Outtake) (Button L1)
+- Doinker (Button B)
+
+AUTONOMOUS MAP IS PROVIDED "Robot Auton Path.pdf"
+FOR ALL AUTONS, ASSUME ROBOT WILL START FRONT FACING THE CLOSEST WALL. Intake faces
+front of bot.
+
+---------------------------------------------------------------
+
+Level 1: Setup & Initialization
+- Initialize the following:
+  - 4 Drive Motors (remember: left side reversed)
+  - Intake Motor (reversed)
+  - Doinker (3-Wire)
+  - Intake Piston (3-Wire)
+  - IMU
+  - Controller
+- Verify that all devices are properly assigned to ports.
+
+---------------------------------------------------------------
+
+Level 2: Basic Driver Control
+- Create the proposed controls for the driver:
+  - 4 motor drive (Arcade Drive)
+  - Button A → Toggle intake piston up/down
+  - Button L2 → Intake in (spin intake motor)
+  - Button L1 → Intake out (reverse intake motor)
+  - Button B → Activate Doinker
+- Driver should now be able to test basic driving and mechanisms.
+
+---------------------------------------------------------------
+
+Level 3: Simple Autonomous (Scoring One Block)
+- For the autonomous, create a basic routine:
+  - Move forward
+  - Score the pre-loaded block into the goal (using intake/outtake)
+- Only required on one side of the red alliance (left or right).
+
+---------------------------------------------------------------
+
+Level 4: Expanded Driver Features & Multi-step Autonomous
+- Driver Control:
+  - Add a toggle state for the intake motor (instead of holding L1/L2).
+    Example: press once to intake continuously, press again to stop.
+  - Add controller feedback when the piston toggles.
+- Autonomous:
+  - Extend auton to pick up an additional block
+  - Score it (total of 2 blocks).
+
+---------------------------------------------------------------
+
+Level 5: Full Match Auton + Driver Polish
+- Driver Control:
+  - Refine controls for efficiency (e.g., add toggle to certain controls that are beneficial).
+  - Allow for precision turning using an extra button (e.g., R1 = small clockwise turn).
+- Autonomous: (Total score 3 points)
+  - Create an advanced path:
+    - Score the pre-load
+    - Collect another block & score
+    - Score again with accurate turning.
+- Add comments so another team member 
+  could understand and modify your code.

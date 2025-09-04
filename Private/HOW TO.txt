@@ -1,0 +1,13 @@
+The tryouts for 2025-2026 will go as such
+    1) Introduce ourselves once everyone arrives and is settled
+    2) Have a short discussion about how these tryouts are going to occur
+        - You will have 15 minutes to discuss amongst everyone and learn the basics of this langauge
+        - You will (after 15 minutes are over) have 25 minutes to get as far as possible in the challenges
+        - Completion of the challenges is not by any means mandatory
+        - Get to the highest level possible before time runs out
+    3) Once they have completed their code
+        - They need to save ANY scored file into a folder and name it with whatever langauge partitcipated
+        - Upload that file to KISD google drive
+        - Share the file with Bhargav Trivedi (K1340549)
+
+Propositions, in the last 5 minutes of the challenges, everyone will turn around and have 2 minutes to talk with other people what they do not understand. The challenges timer will be paused. (So in total 27 mins for challenges)

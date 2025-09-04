@@ -1,0 +1,82 @@
+Robotics Coding Challenge — Levels
+
+Robot Details:
+Situation: The build team created a robot for this year's pushback game.
+
+You are tasked to code the robot with the following components:
+- 4 motor drive (Ports Left: 1 & 2; Ports Right: 16 & 17)
+- Legacy Piston-actuated intake/outtake mover (ADI Port A)
+- IMU (Port 3)
+- Intake Motor (Port 4)
+- Doinker (ADI Port B)
+
+The builder made the Legacy Piston-actuated intake/outtake mover to shift the 
+intake up and down to pick up blocks and score them. The intake motor and 
+left driver motors are reversed. The intake motor is designed so that when 
+spinning it in the opposite direction, the blocks are sent out to score.
+
+The driver wants to have things mapped in a way that's easy for him.
+Here is what he proposed:
+- 4 motor drive
+- Legacy Piston-actuated intake/outtake mover (Button A)
+- Intake Motor (Forwards) (Button L2)
+- Intake Motor (Reverse) (Button L1)
+- Doinker (Button B)
+
+---------------------------------------------------------------
+
+Level 1: Setup & Initialization
+- Initialize the following:
+  - 4 Drive Motors (remember: left side reversed)
+  - Controller
+- Verify that all devices are properly assigned to ports.
+
+---------------------------------------------------------------
+
+Level 2: Basic Driver Control (OpControl)
+- Inside the opcontrol function, create the proposed controls for the driver:
+  - 4 motor drive
+- Driver should now be able to test basic driving and mechanisms.
+
+---------------------------------------------------------------
+
+Level 3: Finish Initialization
+- Intake/Outtake Motor
+- IMU
+
+--------------------------------------------------------------
+
+Level 4: Finish Button mapping
+- Inside the opcontrol function, create the proposed controls for the driver:
+  - Intake Motor (Forwards) (Button L2)
+  - Intake Motor (Backwards) (Button L1)
+- Driver should now be able to test drive and most mechanisms.
+
+---------------------------------------------------------------
+
+Level 5: Simple Autonomous (Scoring One Cube)
+- For the autonomous, create a basic routine:
+  - Move to (15, -12)
+  - Turn heating to -90 degrees.
+
+---------------------------------------------------------------
+
+Level 6: Finish Simple Autonomous
+- Move to (25, -12)
+- Release the block into the scoring zone (spin the intake motor outwards for 3 seconds).
+
+---------------------------EXTRA-------------------------------
+
+Level 7: Finish Initialization & Button Mapping
+- Initialize Legacy Piston-actuated intake/outtake mover (Button A)
+- Initialize Doinker (Button B)
+
+---------------------------------------------------------------
+
+Level 8: Edit the Auton
+- Edit the path so the Doinker activates at the beginning.
+- Edit the path so the Legacy Piston-actuated intake/outtake mover activates before scoring.
+
+---------------------------------------------------------------
+
+Congrats, you finished the Challenge!

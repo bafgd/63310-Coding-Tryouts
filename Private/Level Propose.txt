@@ -1,0 +1,45 @@
+Steps for a potential level system C++
+//IMAGE FOR AUTO WILL BE PROVIDED FOR A VISUAL AID. EXAMPLE CODE WILL BE CREATED FOR THE BEGINNING PORTION
+
+Robot Details
+Situation: The build team created a robot for this year's pushback game.
+You are tasked to code the robot with the following components:
+- 4 motor drive (Ports Left: 1 & 2; Ports Right: 16 & 17)
+- Legacy Piston-actuated intake/outtake mover (ADI Port A)
+- IMU (Port 3)
+- Intake Motor (Port 4)
+- Doinker (ADI Port B)
+
+What does each part do? In a real team, all members have to communicate with each other to understand and develop the bot in the best way. A coder must discuss with the builder & driver to understand what he or she may want in the bot.
+
+The builder made the Legacy Piston-actuated intake/outtake mover to shift the intake up and down to pick up blocks and score them. The intake motor and left driver motors are reversed. The intake motor is designed so that when spinning it in the opposite direction, the blocks are sent out to score.
+
+The driver wants to have things mapped in a way that's easy for him.
+Here is what he proposed.
+- 4 motor drive (Arcade Drive)
+- Legacy Piston-actuated intake/outtake mover (Button A)
+- Intake Motor (Intake) (Button L2)
+- Intake Motor (Outtake) (Button L1)
+- Doinker (Button B)
+
+---------------------------------------------------------------
+
+Level 1:
+- Initialize the following:
+  - Motors
+  - IMU
+  - Doinker
+  - DriveTrain
+  - Controller
+  - Any other Variables needed (optional)
+
+Level 2:
+- Inside the opcontrol function, create the proposed controls for the driver to try out
+- For the autonomous, score a short 1-point path (the bot will start with one block pre-loaded) on the red alliance (You can choose left or right side only 1 side is required)
+
+Level 3:
+- Complete the opcontrol function with any additional code needed
+- For the autonomous, score a 2 block path (the bot will start with one block pre-loaded) on the red alliance (You can choose left or right side only 1 side is required)
+
+
+

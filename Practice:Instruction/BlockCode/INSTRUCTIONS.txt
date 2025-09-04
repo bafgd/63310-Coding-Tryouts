@@ -1,0 +1,6 @@
+	1)	To get started, navigate to "https://codev5.vex.com/”.
+	2)	You may need to create a new project; if so, make one.
+	3)	You will now see a block coding page.
+
+Welcome to Vex Code. You may begin the practice challenges.
+

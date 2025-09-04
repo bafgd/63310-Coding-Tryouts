@@ -1,0 +1,20 @@
+For the C++ language, Katy Robotics highly recommends using a PROS + LemLib setup. This ensures the best experience for coding with the Vex V5 hardware.
+
+	1)	To get started, navigate to "https://pros.cs.purdue.edu/v5/getting-started”
+	2)	Open Visual Studio Code on your computer
+	3)	Follow the download instructions on the PROS link in step 1.
+	4)	Once downloaded, navigate to the extension on the left sidebar.
+	5)	Click on PROS
+	6)	Near the bottom, under conductor, click create project
+	7)	Give it a file path that you will remember
+	8)	Name the file to your choosing
+	9)	Press Enter or the latest version
+	10)	Once files have been created, navigate back to the PROS extension
+	11)	Press on the Integrated Terminal under Quick Actions
+	12)	Paste in these lines of code
+	pros c add-depot LemLib https://raw.githubusercontent.com/LemLib/LemLib/depot/stable.json
+	pros c apply LemLib@0.5.6 # installs LemLib@0.5.5
+
+
+Welcome to PROS. You may begin the practice challenges.
+

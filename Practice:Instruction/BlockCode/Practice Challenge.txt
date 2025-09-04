@@ -1,0 +1,74 @@
+Robotics Coding Practice Challenge — Levels
+
+Robot Details:
+Situation: The build team created a robot for a mini-game called “Cube Grab.” 
+In this game, the robot must pick up foam cubes from the floor and either 
+place them on a low goal or push them into a scoring zone. 
+
+You are tasked to code the robot with the following components:
+- 4 motor drive (Ports Left: 1; Port Right: 10)
+- IMU (Port 2)
+- Arm Motor (Port 3)
+- Legacy Piston (ADI A)
+
+What does each part do? 
+In a real team, communication between coders, builders, and drivers is essential. 
+The arm motor raises and lowers the claw. The IMU can be used for straight driving 
+and turning. The left drive motor is reversed. 
+
+The driver wants the following controls:
+- 4 motor drive
+- Legacy Piston (Button A)
+- Arm Motor Up (Button L2)
+- Arm Motor Down (Button L1)
+
+---------------------------------------------------------------
+
+Level 1: Setup & Initialization
+- Initialize the following:
+  - 4 Drive Motors (remember: left side reversed)
+  - Controller
+- Verify that all devices are properly assigned to ports.
+
+---------------------------------------------------------------
+
+Level 2: Basic Driver Control (OpControl)
+- Inside the opcontrol function, create the proposed controls for the driver:
+  - 4 motor drive
+- Driver should now be able to test basic driving and mechanisms.
+
+---------------------------------------------------------------
+
+Level 3: Finish Initialization
+- Arm Motor
+- IMU
+
+--------------------------------------------------------------
+
+Level 4
+Button A → Toggle claw piston open/close
+  - Button L2 → Arm up
+  - Button L1 → Arm down
+
+---------------------------------------------------------------
+
+Level 5: Simple Autonomous (Scoring One Cube)
+- For the autonomous, create a basic routine:
+  - Move forward (10, 10)
+  - Turn the heading to 90 degrees.
+
+---------------------------------------------------------------
+
+Level 6: Finish Simple Autonomous
+- Lift the arm to 90 degrees.
+- Release the cube into the scoring zone.
+
+---------------------------EXTRA-------------------------------
+
+Level 7: Initialization of ADI
+- Initialize Legacy Piston (Port ADI A)
+
+---------------------------------------------------------------
+
+Level 8: Edit Auton
+- Extend the piston when auton ends.

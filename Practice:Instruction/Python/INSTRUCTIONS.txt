@@ -1,0 +1,9 @@
+	1)	To get started, navigate to "https://codev5.vex.com/”.
+	2)	You may need to create a new project; if so, make one.
+	3)	You will now see a block coding page.
+	4)	Look near the top right, you will see a button that looks like a coding button " < > ".
+	5)	Click on the " < > ".
+	6)	Click on "Convert," making sure that Python is selected.
+
+Welcome to Vex Code. You may begin the practice challenges.
+
